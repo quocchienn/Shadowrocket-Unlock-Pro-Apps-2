@@ -399,8 +399,6 @@
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/bazaart.module">bazaart</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/bdsp.module">布丁锁屏</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/bedtime-fan.module">bedtime fan</button>
-    <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/bili.module">bilibili HD</button>
-    <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/biliad.module">bilibili NoAD</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/Bodian.module">波点音乐</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/boom.module">BOOM</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/boxjs.sgmodule">boxjs</button>
@@ -527,7 +525,7 @@
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/jsgx.module">精塾国学</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/prettyup.module">PrettyUp</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/weibolitead.module">微博lite去广告</button>
-    <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/bili-region.module">BILI Khu vực tự động</button>
+    <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://raw.githubusercontent.com/Maasea/sgmodule/refs/heads/master/Bilibili.Helper.sgmodule">Bilibili Helper</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/cubox.sgmodule">CUBOX</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/pandora.module">pandora</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/wechatread.module">微信阅读积分兑换</button>
@@ -648,7 +646,7 @@
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/gscdq.module">古诗词大全</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/mondly.module">Mondly</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/mtywj.module">猫头鹰文件</button>
-    <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/YouTubeAd.sgmodule">YouTube去广告</button>
+    <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://raw.githubusercontent.com/Maasea/sgmodule/refs/heads/master/YouTube.Enhance.sgmodule">YouTube Chặn QC</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/hbetgs.module">汉堡儿童故事</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/iconkiller.module">iconKiller</button>
     <button class="myButton" onclick="handleClick(this)" data-href="shadowrocket://install?module=https://whatshub.top/module/yczjz.module">一寸证件照</button>
@@ -831,6 +829,13 @@
             data-href="https://raw.githubusercontent.com/iSteal-it/script/main/shadowrocket.configuration">
       Alight Motion
     </button>
+<button class="myButton" onclick="handleClick(this)" 
+    data-href="shadowrocket://config?url=https://raw.githubusercontent.com/quocchienn/Mbank_Blocks/refs/heads/Mbank_Block_Jb/MbankBlocks_JB.conf">
+    MbankBlocks_JB
+		<button class="myButton" onclick="handleClick(this)" 
+    data-href="shadowrocket://config?url=https://raw.githubusercontent.com/quocchienn/YouTubePIP/refs/heads/YouTube%2B%2B/YouTubePIP.conf">
+    YouTubePIP
+</button>
     <!-- Thêm các nút khác nếu cần -->
   </div>
 </div>
@@ -860,6 +865,10 @@
          data-ad-client="ca-pub-4631656380634463"
          data-ad-slot="6352893966"></ins>
     <script>
+function handleClick(button) {
+    const href = button.getAttribute('data-href');
+    window.location.href = href;
+}
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 </body>
