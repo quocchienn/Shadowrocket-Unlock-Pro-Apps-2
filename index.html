@@ -3,24 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thông báo</title>
+    <title>Shadowrocket Unlock Pro Apps</title>
     <style>
-		.telegram-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0088cc;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: background-color 0.3s;
-    margin-top: 10px;
-}
-
-.telegram-button:hover {
-    background-color: #006699;
-}
-        /* Thiết lập chế độ sáng tối theo hệ thống */
         body {
             display: flex;
             justify-content: center;
@@ -32,13 +16,11 @@
             transition: background-color 0.3s, color 0.3s;
         }
 
-        /* Chế độ sáng */
         body {
             background-color: #f2f2f2;
             color: #333;
         }
 
-        /* Chế độ tối */
         @media (prefers-color-scheme: dark) {
             body {
                 background-color: #333;
@@ -52,7 +34,6 @@
             }
         }
 
-        /* Hiệu ứng nhấp nháy 7 màu */
         @keyframes rainbow {
             0% { color: red; }
             14% { color: orange; }
@@ -65,7 +46,7 @@
         }
 
         .rainbow-text {
-            animation: rainbow 2s infinite;
+            animation: rainbow 6s infinite; 
         }
 
         .container {
@@ -91,30 +72,52 @@
             margin-bottom: 20px;
         }
 
-        .redirect-button {
+        .button {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 8px 16px; 
+            font-size: 14px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .redirect-button {
             background-color: #007bff;
             color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: background-color 0.3s;
         }
 
         .redirect-button:hover {
             background-color: #0056b3;
         }
+
+        .install-button {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .install-button:hover {
+            background-color: #1e7e34;
+        }
+
+        .telegram-button {
+            background-color: #0088cc;
+            color: #fff;
+        }
+
+        .telegram-button:hover {
+            background-color: #006699;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1 class="rainbow-text">Thông báo 🔔 
-				Notice 🔔 </h1>
-        <p class="rainbow-text">Trang web hiện tại đã dừng hoạt động. Vui lòng truy cập vào trang web mới để tiếp tục.
-				The current website has stopped working. Please visit the new website to continue.</p>
-        <a href="https://shadowrocket.free.nf/" class="redirect-button rainbow-text">👉Truy cập trang mới👈</a>
-				<a href="https://t.me/shadowrocketunlockproapps" class="telegram-button rainbow-text" target="_blank">🆕 Tham Gia Nhóm Telegram Để Được Hỗ Trợ</a>
+        <h1 class="rainbow-text">Thông báo 🔔 Notice 🔔</h1>
+        <p class="rainbow-text">Trang web hiện tại đã dừng hoạt động. Vui lòng truy cập vào trang web mới để tiếp tục.<br>
+        The current website has stopped working. Please visit the new website to continue.</p>
+        <a href="https://raw.githubusercontent.com/quocchienn/Shadowrocket.crack.app/refs/heads/main/shadowrocket.free.nf.mobileconfig" class="install-button rainbow-text button">📥 Cài đặt App</a>
+        <a href="https://shadowrocket.free.nf" class="redirect-button rainbow-text button">👉 Truy cập trang mới 👈</a>
+        <a href="https://t.me/shadowrocketunlockproapps" class="telegram-button rainbow-text button" target="_blank">🆕 Tham Gia Nhóm Telegram Để Được Hỗ Trợ</a>
     </div>
 </body>
 </html>
